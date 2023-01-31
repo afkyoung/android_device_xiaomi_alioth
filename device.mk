@@ -62,3 +62,4 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/camera/camera_product.mk)
